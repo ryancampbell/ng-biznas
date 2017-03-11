@@ -77,8 +77,8 @@ do
     echo "====== [${PACKAGE}]: COMPILING: ${TSC} -p ${SRCDIR}/tsconfig-build.json"
     $TSC -p ${SRCDIR}/tsconfig-build.json
 
-    echo "====== [${PACKAGE}]: LINTING: $TSLINT -c ./tslint.json --type-check --project ${SRCDIR}/tsconfig-build.json ${SRCDIR}/src/**/*.ts"
-    $TSLINT -c ./tslint.json --type-check --project ${SRCDIR}/tsconfig-build.json ./no${SRCDIR}/src/**/*.ts
+    echo "====== [${PACKAGE}]: LINTING: $TSLINT -c ./tslint.json --type-check --project ${SRCDIR}/tsconfig-build.json ${SRCDIR}/**/*.ts"
+    $TSLINT -c ./tslint.json --type-check --project ${SRCDIR}/tsconfig-build.json ${SRCDIR}/**/*.ts
 
   fi
 
