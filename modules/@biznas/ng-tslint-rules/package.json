@@ -1,0 +1,19 @@
+{
+  "name": "@biznas/ng-tslint-rules",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "Biznas Open Source for Angular - the core framework",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
+  "author": "biznas",
+  "license": "MIT",
+  "peerDependencies": {
+    "codelyzer": "^3.0.0-beta.3",
+    "tslint": "^4.5.1",
+    "tslint-eslint-rules": "^3.4.0",
+    "vrsource-tslint-rules": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biznas/ng-biznas.git"
+  }
+}

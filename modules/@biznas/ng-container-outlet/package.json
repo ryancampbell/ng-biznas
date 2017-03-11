@@ -1,0 +1,22 @@
+{
+  "name": "@biznas/ng-container-outlet",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "Biznas Open Source for Angular - the core framework",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
+  "author": "biznas",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^4.0.0-rc.2",
+    "@angular/compiler": "^4.0.0-rc.2",
+    "@angular/core": "^4.0.0-rc.2",
+    "@angular/router": "^4.0.0-rc.2",
+    "lodash": "4.x.x",
+    "rxjs": "5.2.x",
+    "zone.js": "0.7.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biznas/ng-biznas.git"
+  }
+}
